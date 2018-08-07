@@ -1,4 +1,4 @@
-<!-- <!DOCTYPE html> -->
+<!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
@@ -6,12 +6,93 @@
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
     <link href="css/styles.css" rel="stylesheet" type="text/css">
     <script src="js/jquery-3.3.1.js"></script>
-    <script src="js/script.js"></script>
+    <script src="js/scripts.js"></script>
     <title>jQuery Practice</title>
   </head>
   <body>
     <div class="container">
-      
+      <div class="row">
+        <div class="col-md-12">
+          <div class="jumbotron">
+            Title
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div id="column-1" class="col-md-4 main">
+          <div class="row">
+            <div id="image-area-1" class="col-md-12 column-section">
+              <img src="img/pennywise.jpg">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12 column-section short">
+              <div class="row">
+                <button class="col-md-6 button-area">
+                  Hide
+                </button>
+                <button class="col-md-6 button-area">
+                  Show
+                </button>
+              </div>
+              <div class="row">
+                <button style="transform: scaleX(0.95)" class="col-md-12 button-area">
+                  Toggle Hide/Show
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="column-2" class="col-md-4 main">
+          <div class="row">
+            <div id="image-area-2" class="col-md-12 column-section">
+              <img src="img/anglerfish.jpg">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12 column-section short">
+              <div class="row">
+                <button class="col-md-6 button-area">
+                  Fade Out
+                </button>
+                <button class="col-md-6 button-area">
+                  Fade In
+                </button>
+              </div>
+              <div class="row">
+                <button style="transform: scaleX(0.95)" class="col-md-12 button-area">
+                  Toggle Fade
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="column-3" class="col-md-4 main">
+          <div class="row">
+            <div id="image-area-3" class="col-md-12 column-section">
+              <img src="img/scorpion.jpg">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12 column-section short">
+              <div class="row">
+                <button class="col-md-6 button-area">
+                  Slide Out
+                </button>
+                <button class="col-md-6 button-area">
+                  Slide In
+                </button>
+              </div>
+              <div class="row">
+                <button style="transform: scaleX(0.95)" class="col-md-12 button-area">
+                  Toggle Slide
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
     </div>
   </body>
 </html>
